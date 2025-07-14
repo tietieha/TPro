@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - WorldMapCamera
+  - UIMaterial
+  - Info
+  - Card
+  - WorldUICamera
+  - PveBattleUnit
+  - GrideBuilderTile
+  - Drifting
+  - BGPanel
+  - AnimRoot
+  - BattleCamera
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - CameraLayer
+  - UILatter
+  - UIObject3D
+  - ObjRaycast
+  - POST
+  - Scene_Actor
+  - 
+  - 
+  - 
+  - L_Static
+  - ShowUI_Scence
+  - CityBuilding
+  - ShowUI_Actor
+  - RealtimeShadow
+  - StaticShadow
+  - MeshAndShadow
+  - Cloud
+  - BBV_MistTransparent
+  - MistLayer
+  - BBV_Collision
+  - AtlasUI
+  - 
+  - 
+  - Hide
+  - UI_HERO_MOD
+  - BuildLayer
+  m_SortingLayers:
+  - name: FreeBuildGround
+    uniqueID: 4194657685
+    locked: 0
+  - name: FreeBuildMiddle
+    uniqueID: 4228207561
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: FreeBuildAir
+    uniqueID: 673425963
+    locked: 0
+  - name: FreeBuildSky
+    uniqueID: 3462404779
+    locked: 0
+  - name: TopSelect
+    uniqueID: 350335367
+    locked: 0
