@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c11a54c7f9d5cf34db4d8718e0241c09
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_AnimClip: {fileID: 1827226128182048838, guid: 73cbe195013d36d4e9896640ce7870ae,
+      type: 3}
+  - m_Curves: {fileID: 1827226128182048838, guid: 73cbe195013d36d4e9896640ce7870ae,
+      type: 3}
+  - m_Parent: {fileID: 11400000, guid: 48a10cd63f1b2e54a9357b0ad91b95af, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ba4d7c4a4b4c018116005145021a90, type: 3}
+  m_Name: TEngineGlobalSettings
+  m_EditorClassIdentifier: 
+  m_FrameworkGlobalSettings:
+    m_ScriptAuthor: Default
+    m_ScriptVersion: 0.1
+    m_DefaultFont: Arial
+    m_GameNetType: 1
+    EnableUpdateConfig: 1
+    EnableUpdateRes: 1
+    m_UpdateInfos:
+    - gameNetType: 1
+      configURL: http://192.168.50.93:8901
+      resVersionURL: http://192.168.50.93:8901
+      resURL: https://proneoh-cdn.game.ruyi.cn/Internal
+      packageName: com.jingxiu.homm.test
+    - gameNetType: 2
+      configURL: http://119.45.238.155:8901
+      resVersionURL: http://119.45.238.155:8901
+      resURL: https://proneoh-cdn.game.ruyi.cn/Master
+      packageName: com.jingxiu.homm
+    - gameNetType: 3
+      configURL: http://175.27.232.50:8901
+      resVersionURL: http://175.27.232.50:8901
+      resURL: https://proneoh-cdn.game.ruyi.cn/Release
+      packageName: com.jingxiu.homm.release
+    - gameNetType: 4
+      configURL: http://175.27.232.50:8901
+      resVersionURL: http://175.27.232.50:8901
+      resURL: https://proneoh-cdn.game.ruyi.cn/Release
+      packageName: com.jingxiu.homm
+    - gameNetType: 5
+      configURL: http://175.27.232.50:8901
+      resVersionURL: http://175.27.232.50:8901
+      resURL: https://proneoh-cdn.game.ruyi.cn/Release
+      packageName: com.jingxiu.homm
+    - gameNetType: 6
+      configURL: http://175.27.232.50:8901
+      resVersionURL: http://175.27.232.50:8901
+      resURL: https://proneoh-cdn.game.ruyi.cn/Release
+      packageName: com.jingxiu.homm
+    namespace: GameLogic
+    scriptGenerateRule:
+    - uiElementRegex: m_go
+      componentName: GameObject
+    - uiElementRegex: m_item
+      componentName: GameObject
+    - uiElementRegex: m_tf
+      componentName: Transform
+    - uiElementRegex: m_rect
+      componentName: RectTransform
+    - uiElementRegex: m_text
+      componentName: Text
+    - uiElementRegex: m_richText
+      componentName: RichTextItem
+    - uiElementRegex: m_btn
+      componentName: Button
+    - uiElementRegex: m_img
+      componentName: Image
+    - uiElementRegex: m_rimg
+      componentName: RawImage
+    - uiElementRegex: m_scrollBar
+      componentName: Scrollbar
+    - uiElementRegex: m_scrollRect
+      componentName: ScrollRect
+    - uiElementRegex: m_input
+      componentName: InputField
+    - uiElementRegex: m_grid
+      componentName: GridLayoutGroup
+    - uiElementRegex: m_hlay
+      componentName: HorizontalLayoutGroup
+    - uiElementRegex: m_vlay
+      componentName: VerticalLayoutGroup
+    - uiElementRegex: m_red
+      componentName: RedNoteBehaviour
+    - uiElementRegex: m_slider
+      componentName: Slider
+    - uiElementRegex: m_group
+      componentName: ToggleGroup
+    - uiElementRegex: m_curve
+      componentName: AnimationCurve
+    - uiElementRegex: m_canvasGroup
+      componentName: CanvasGroup
+  m_HybridCLRCustomGlobalSettings:
+    HotUpdateAssemblies:
+    - GameBase.dll
+    - GameLogic.dll
+    AOTMetaAssemblies:
+    - mscorlib.dll
+    - System.dll
+    - System.Core.dll
+    - YooAsset.dll
+    - UniTask.dll
+    - Unity.TextMeshPro.dll
+    - TEngine.Runtime.dll
+    - XLuaBase.dll
+    - Unity.Timeline.dll
+    - Unity.Collections.dll
+    - Unity.Burst.dll
+    - Unity.Jobs.dll
+    - spine-unity.dll
+    - DOTween.dll
+    - DOTweenPro.dll
+    - GameAOTs.dll
+    - Newtonsoft.Json.dll
+    - UnityEngine.AndroidJNIModule.dll
+    - UnityEngine.CoreModule.dll
+    - UnityEngine.JSONSerializeModule.dll
+    - GameSDK.dll
+    LogicMainDllName: GameLogic.dll
+    AssemblyTextAssetExtension: .bytes
+    AssemblyTextAssetPath: GameAssets/DLL
+    HybridCLRGlobalSettings: Settings/HybridCLRGlobalSettings

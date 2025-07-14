@@ -1,0 +1,40 @@
+{
+    "name": "GameLogic",
+    "rootNamespace": "GameLogic",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:cbb0d51b565003841ae81cdbaf747114",
+        "GUID:24c092aee38482f4e80715eaa8148782",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:e34a5702dd353724aa315fb8011f08c3",
+        "GUID:98c100006363b144995937fc7b5e3839",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:f06555f75b070af458a003d92f9efb00",
+        "GUID:44744030d189edf49b5b3a9815cbc7ab",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:df380645f10b7bc4b97d4f5eb6303d95",
+        "GUID:9e8aebd19ced3464790f269b69559b10",
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:b444bcbb3cf51714ebe74c4ba4ecdeb6",
+        "GUID:3aaa4fd476d7c5b4c94bfb6232bcfce0",
+        "GUID:1c1835141de16e146be26fa73642afa8",
+        "GUID:bde053f95be2dc24ba6f1fc4c3a85aad",
+        "GUID:e89f356ace22a564fb2a2db3c9ebc388",
+        "GUID:5ef654495772d384b8d6a348d04eb92c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "",
+            "define": "ENABLE_URP"
+        }
+    ],
+    "noEngineReferences": false
+}

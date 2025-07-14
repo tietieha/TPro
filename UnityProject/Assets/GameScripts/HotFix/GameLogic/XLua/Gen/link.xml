@@ -1,0 +1,329 @@
+﻿
+
+<linker>
+
+	<assembly fullname="mscorlib">
+	    <type fullname="System.ValueType" preserve="all"/>
+		<type fullname="System.Collections.IList" preserve="all"/>
+		<type fullname="System.Collections.ICollection" preserve="all"/>
+		<type fullname="System.Collections.IEnumerable" preserve="all"/>
+		<type fullname="System.Collections.IEnumerator" preserve="all"/>
+		<type fullname="System.Collections.Generic.List`1+Enumerator[ChatDataStruct]" preserve="all"/>
+		<type fullname="System.Collections.Generic.List`1+Enumerator[System.Type]" preserve="all"/>
+		<type fullname="System.Collections.Generic.IEnumerator`1[ChatDataStruct]" preserve="all"/>
+		<type fullname="System.Collections.Generic.List`1[ChatDataStruct]" preserve="all"/>
+		<type fullname="System.Collections.Hashtable" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.CoreModule">
+	    <type fullname="UnityEngine.Resources" preserve="all"/>
+		<type fullname="UnityEngine.Object" preserve="all"/>
+		<type fullname="UnityEngine.Rect" preserve="all"/>
+		<type fullname="UnityEngine.RectInt" preserve="all"/>
+		<type fullname="UnityEngine.Camera" preserve="all"/>
+		<type fullname="UnityEngine.Screen" preserve="all"/>
+		<type fullname="UnityEngine.GameObject" preserve="all"/>
+		<type fullname="UnityEngine.Component" preserve="all"/>
+		<type fullname="UnityEngine.Transform" preserve="all"/>
+		<type fullname="UnityEngine.Debug" preserve="all"/>
+		<type fullname="UnityEngine.SceneManagement.SceneManager" preserve="all"/>
+		<type fullname="UnityEngine.Time" preserve="all"/>
+		<type fullname="UnityEngine.RectTransform" preserve="all"/>
+		<type fullname="UnityEngine.Sprite" preserve="all"/>
+		<type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all"/>
+		<type fullname="UnityEngine.SpriteRenderer" preserve="all"/>
+		<type fullname="UnityEngine.Texture2D" preserve="all"/>
+		<type fullname="UnityEngine.PlayerPrefs" preserve="all"/>
+		<type fullname="UnityEngine.RenderTexture" preserve="all"/>
+		<type fullname="UnityEngine.GeometryUtility" preserve="all"/>
+		<type fullname="UnityEngine.Application" preserve="all"/>
+		<type fullname="UnityEngine.Behaviour" preserve="all"/>
+		<type fullname="UnityEngine.Bounds" preserve="all"/>
+		<type fullname="UnityEngine.Color" preserve="all"/>
+		<type fullname="UnityEngine.LayerMask" preserve="all"/>
+		<type fullname="UnityEngine.Mathf" preserve="all"/>
+		<type fullname="UnityEngine.Plane" preserve="all"/>
+		<type fullname="UnityEngine.Quaternion" preserve="all"/>
+		<type fullname="UnityEngine.Ray" preserve="all"/>
+		<type fullname="UnityEngine.Vector2" preserve="all"/>
+		<type fullname="UnityEngine.Vector3" preserve="all"/>
+		<type fullname="UnityEngine.Vector4" preserve="all"/>
+		<type fullname="UnityEngine.SystemInfo" preserve="all"/>
+		<type fullname="UnityEngine.Playables.PlayableAsset" preserve="all"/>
+		<type fullname="UnityEngine.Playables.PlayableBinding" preserve="all"/>
+		<type fullname="UnityEngine.LineRenderer" preserve="all"/>
+		<type fullname="UnityEngine.Renderer" preserve="all"/>
+		<type fullname="UnityEngine.TrailRenderer" preserve="all"/>
+		<type fullname="UnityEngine.Events.UnityEvent" preserve="all"/>
+		<type fullname="UnityEngine.Events.UnityEvent`1[System.String]" preserve="all"/>
+		<type fullname="UnityEngine.Events.UnityEvent`1[System.Single]" preserve="all"/>
+		<type fullname="UnityEngine.Events.UnityEvent`1[System.Boolean]" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.InputLegacyModule">
+	    <type fullname="UnityEngine.Touch" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.AnimationModule">
+	    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all"/>
+		<type fullname="UnityEngine.Animation" preserve="all"/>
+		<type fullname="UnityEngine.Animator" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.UIModule">
+	    <type fullname="UnityEngine.Canvas" preserve="all"/>
+		<type fullname="UnityEngine.CanvasGroup" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.SpriteMaskModule">
+	    <type fullname="UnityEngine.SpriteMask" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.Physics2DModule">
+	    <type fullname="UnityEngine.BoxCollider2D" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.PhysicsModule">
+	    <type fullname="UnityEngine.BoxCollider" preserve="all"/>
+		<type fullname="UnityEngine.Collider" preserve="all"/>
+		<type fullname="UnityEngine.RaycastHit" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.TextRenderingModule">
+	    <type fullname="UnityEngine.TextAnchor" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.DirectorModule">
+	    <type fullname="UnityEngine.Playables.PlayableDirector" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="Unity.Timeline">
+	    <type fullname="UnityEngine.Timeline.TimelineAsset" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.UI">
+	    <type fullname="UnityEngine.UI.Selectable" preserve="all"/>
+		<type fullname="UnityEngine.UI.Text" preserve="all"/>
+		<type fullname="UnityEngine.UI.Image" preserve="all"/>
+		<type fullname="UnityEngine.UI.RawImage" preserve="all"/>
+		<type fullname="UnityEngine.UI.Mask" preserve="all"/>
+		<type fullname="UnityEngine.UI.InputField" preserve="all"/>
+		<type fullname="UnityEngine.UI.ScrollRect" preserve="all"/>
+		<type fullname="UnityEngine.UI.Scrollbar" preserve="all"/>
+		<type fullname="UnityEngine.UI.Slider" preserve="all"/>
+		<type fullname="UnityEngine.UI.Button" preserve="all"/>
+		<type fullname="UnityEngine.UI.Toggle" preserve="all"/>
+		<type fullname="UnityEngine.UI.ToggleGroup" preserve="all"/>
+		<type fullname="UnityEngine.UI.Button+ButtonClickedEvent" preserve="all"/>
+		<type fullname="UnityEngine.UI.ScrollRect+ScrollRectEvent" preserve="all"/>
+		<type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all"/>
+		<type fullname="UnityEngine.UI.HorizontalOrVerticalLayoutGroup" preserve="all"/>
+		<type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all"/>
+		<type fullname="UnityEngine.UI.Shadow" preserve="all"/>
+		<type fullname="UnityEngine.UI.InputField+SubmitEvent" preserve="all"/>
+		<type fullname="UnityEngine.UI.Slider+SliderEvent" preserve="all"/>
+		<type fullname="UnityEngine.UI.Toggle+ToggleEvent" preserve="all"/>
+		<type fullname="UnityEngine.UI.InputField+OnChangeEvent" preserve="all"/>
+		<type fullname="UnityEngine.UI.Dropdown" preserve="all"/>
+		<type fullname="UnityEngine.UI.Dropdown+OptionData" preserve="all"/>
+		<type fullname="UnityEngine.UI.LayoutElement" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="GameLogic">
+	    <type fullname="UnityEngine.UI.Empty4Raycast" preserve="all"/>
+		<type fullname="UIMultiScroller" preserve="all"/>
+		<type fullname="GameDefines" preserve="all"/>
+		<type fullname="PageViewComponent" preserve="all"/>
+		<type fullname="UnityExtension" preserve="all"/>
+		<type fullname="TMPJumpNumber" preserve="all"/>
+		<type fullname="XLua.LuaExBehaviour" preserve="all"/>
+		<type fullname="CommonHelper" preserve="all"/>
+		<type fullname="SocketManager" preserve="all"/>
+		<type fullname="EventTriggerListener" preserve="all"/>
+		<type fullname="CinemachineAni" preserve="all"/>
+		<type fullname="EventComponent" preserve="all"/>
+		<type fullname="CommonEventArgs" preserve="all"/>
+		<type fullname="EventId" preserve="all"/>
+		<type fullname="FlyPositionAnimation" preserve="all"/>
+		<type fullname="FlyMode" preserve="all"/>
+		<type fullname="UW.AnimationController" preserve="all"/>
+		<type fullname="GameLogic.SimpleToggleGroup" preserve="all"/>
+		<type fullname="GameLogic.SimpleToggle" preserve="all"/>
+		<type fullname="ChatDataStruct" preserve="all"/>
+		<type fullname="ChatUserInfoDataStruct" preserve="all"/>
+		<type fullname="MailDataStruct" preserve="all"/>
+		<type fullname="MailCollectDataStruct" preserve="all"/>
+		<type fullname="UIProgressBar" preserve="all"/>
+		<type fullname="ToggleObjects" preserve="all"/>
+		<type fullname="UIToggleGroup" preserve="all"/>
+		<type fullname="AnimatorUtils" preserve="all"/>
+		<type fullname="LuaArrAccessAPI" preserve="all"/>
+		<type fullname="LuaArrAccess" preserve="all"/>
+		<type fullname="LuaJitArrAccess" preserve="all"/>
+		<type fullname="EmbattleCellColorType" preserve="all"/>
+		<type fullname="EmbattleHexagonGrid" preserve="all"/>
+		<type fullname="HexagonGridUtil" preserve="all"/>
+		<type fullname="CircleGuideMask" preserve="all"/>
+		<type fullname="SquareGuideMask" preserve="all"/>
+		<type fullname="PVEFogCamera" preserve="all"/>
+		<type fullname="PVEFogOfWar" preserve="all"/>
+		<type fullname="PVEFogRender" preserve="all"/>
+		<type fullname="CameraVisibleRect" preserve="all"/>
+		<type fullname="CampaignLineRenderer" preserve="all"/>
+		<type fullname="WorldZoneInfo" preserve="all"/>
+		<type fullname="WorldZoneMap" preserve="all"/>
+		<type fullname="GmLogEventManager" preserve="all"/>
+		<type fullname="World.BigWorldRender" preserve="all"/>
+		<type fullname="World.MarchLineRenderer" preserve="all"/>
+		<type fullname="World.TestCameraMove" preserve="all"/>
+		<type fullname="World.WorldBusinessEdgeData" preserve="all"/>
+		<type fullname="World.WorldZoneMapData" preserve="all"/>
+		<type fullname="World.PathFinder.StraightAStarPathfinder" preserve="all"/>
+		<type fullname="Mopsicus.Plugins.MobileInputField" preserve="all"/>
+		<type fullname="RVO.Simulator" preserve="all"/>
+		<type fullname="RVO.Vector2" preserve="all"/>
+		<type fullname="M.PathFinding.BattleMap" preserve="all"/>
+		<type fullname="M.PathFinding.UnitConfig" preserve="all"/>
+		<type fullname="M.PathFinding.BattleMapConfig" preserve="all"/>
+		<type fullname="M.PathFinding.BattleEntityPoolManager" preserve="all"/>
+		<type fullname="M.PathFinding.State" preserve="all"/>
+		<type fullname="M.PathFinding.Team" preserve="all"/>
+		<type fullname="M.PathFinding.EUnitType" preserve="all"/>
+		<type fullname="M.PathFinding.Unit" preserve="all"/>
+		<type fullname="M.PathFinding.EUnitState" preserve="all"/>
+		<type fullname="M.PathFinding.BattleMapDebugger" preserve="all"/>
+		<type fullname="M.Battle.BattleLogicBridge" preserve="all"/>
+		<type fullname="M.Battle.FieldGridDrawer" preserve="all"/>
+		<type fullname="M.Battle.BattlePoolManager" preserve="all"/>
+		<type fullname="M.Battle.BattleRenderManager" preserve="all"/>
+		<type fullname="M.Battle.Render.SocketInfo" preserve="all"/>
+		<type fullname="M.Battle.Render.ParticleTime" preserve="all"/>
+		<type fullname="Components.GameObjectEx" preserve="all"/>
+		<type fullname="UnityEngine.UI.Extensions.HorizontalScrollSnap" preserve="all"/>
+		<type fullname="UnityEngine.UI.Extensions.ScrollSnapBase" preserve="all"/>
+		<type fullname="UnityEngine.UI.Extensions.UI_InfiniteScroll" preserve="all"/>
+		<type fullname="BitBenderGames.MobileTouchCamera" preserve="all"/>
+		<type fullname="BitBenderGames.PolygonBoundaryTouchCamera" preserve="all"/>
+		<type fullname="BitBenderGames.TouchInputController" preserve="all"/>
+		<type fullname="Base.LuaDatabaseManager" preserve="all"/>
+		<type fullname="GameLogic.UIVideoPlayer" preserve="all"/>
+		<type fullname="UW.DoTweenUtil" preserve="all"/>
+		<type fullname="UW.GameTouchInputController" preserve="all"/>
+		<type fullname="UW.PingManager" preserve="all"/>
+		<type fullname="UW.HoldEventTrigger" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.ParticleSystemModule">
+	    <type fullname="UnityEngine.ParticleSystem" preserve="all"/>
+		<type fullname="UnityEngine.ParticleSystem+VelocityOverLifetimeModule" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="spine-unity">
+	    <type fullname="Spine.Unity.SkeletonAnimation" preserve="all"/>
+		<type fullname="Spine.AnimationState" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.VideoModule">
+	    <type fullname="UnityEngine.Video.VideoClip" preserve="all"/>
+		<type fullname="UnityEngine.Video.VideoPlayer" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.UnityWebRequestModule">
+	    <type fullname="UnityEngine.WWWForm" preserve="all"/>
+		<type fullname="UnityEngine.Networking.UnityWebRequest" preserve="all"/>
+		<type fullname="UnityEngine.Networking.DownloadHandler" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="TEngine.Runtime">
+	    <type fullname="UIPolygonRaycast" preserve="all"/>
+		<type fullname="UILineRenderer" preserve="all"/>
+		<type fullname="TextExtension" preserve="all"/>
+		<type fullname="TEngine.GameModule" preserve="all"/>
+		<type fullname="TEngine.AudioModule" preserve="all"/>
+		<type fullname="TEngine.ResourceModule" preserve="all"/>
+		<type fullname="RequestFormData" preserve="all"/>
+		<type fullname="BestHttpManager" preserve="all"/>
+		<type fullname="HttpRequestUtils" preserve="all"/>
+		<type fullname="TEngine.MaterialExtension.MaterialMgr" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="Unity.TextMeshPro">
+	    <type fullname="TMPro.TextMeshPro" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="GameAOTs">
+	    <type fullname="UniClipboard" preserve="all"/>
+		<type fullname="HUDUI.HUDBehaviour" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="DOTween">
+	    <type fullname="DG.Tweening.DOTween" preserve="all"/>
+		<type fullname="DG.Tweening.DOVirtual" preserve="all"/>
+		<type fullname="DG.Tweening.EaseFactory" preserve="all"/>
+		<type fullname="DG.Tweening.Tweener" preserve="all"/>
+		<type fullname="DG.Tweening.Tween" preserve="all"/>
+		<type fullname="DG.Tweening.Sequence" preserve="all"/>
+		<type fullname="DG.Tweening.TweenParams" preserve="all"/>
+		<type fullname="DG.Tweening.TweenExtensions" preserve="all"/>
+		<type fullname="DG.Tweening.TweenSettingsExtensions" preserve="all"/>
+		<type fullname="DG.Tweening.ShortcutExtensions" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="DOTween.Modules">
+	    <type fullname="DG.Tweening.DOTweenModuleUI" preserve="all"/>
+		<type fullname="DG.Tweening.DOTweenModuleSprite" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="Cinemachine">
+	    <type fullname="Cinemachine.CinemachineVirtualCamera" preserve="all"/>
+		<type fullname="Cinemachine.LensSettings" preserve="all"/>
+		<type fullname="Cinemachine.CinemachineTrackedDolly" preserve="all"/>
+		<type fullname="Cinemachine.CinemachineCore" preserve="all"/>
+		<type fullname="Cinemachine.CinemachineBrain" preserve="all"/>
+		<type fullname="Cinemachine.CinemachineBlendDefinition" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="BestHttp">
+	    <type fullname="BestHTTP.WebSocket.WebSocket" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.UnityWebRequestTextureModule">
+	    <type fullname="UnityEngine.Networking.DownloadHandlerTexture" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.IMGUIModule">
+	    <type fullname="UnityEngine.GUIUtility" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="AnimInstance.Runtime">
+	    <type fullname="RenderTools.AnimInstance.AnimInstance" preserve="all"/>
+		
+	</assembly>
+
+</linker>
