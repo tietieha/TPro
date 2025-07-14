@@ -1,0 +1,10 @@
+# *.c text eol=lf
+# *.cpp text eol=lf
+# *.h text eol=lf
+# *.cs text eol=lf
+# *.java text eol=lf
+# *.js text eol=lf
+# *.py text eol=lf
+# *.lua text eol=lf
+# *.lua.txt text eol=lf
+* text=auto eol=lf
