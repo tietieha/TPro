@@ -1,0 +1,18 @@
+{
+    "name": "GreateWorld.MapEditor.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b512a696c6be507469cfab34f89ad13a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

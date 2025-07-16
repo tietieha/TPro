@@ -1,0 +1,21 @@
+{
+    "name": "AnimInstance.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e89f356ace22a564fb2a2db3c9ebc388",
+        "GUID:02f771204943f4a40949438e873e3eff",
+        "GUID:f06555f75b070af458a003d92f9efb00",
+        "GUID:e98c77239db80be41851716ff476c4e6"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
